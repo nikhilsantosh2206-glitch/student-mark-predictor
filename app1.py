@@ -6,7 +6,7 @@ from flask import Flask, request, render_template
 import joblib
 
 app = Flask(__name__)
-model = joblib.load(r"D:\MyFile\0. DATASCIENCE PROJECT\4. Students mark prediction\Student Mark Predictor Project Deployment\Student mark Predictor Deployment\Desktop.pkl")
+model = joblib.load(r"C:\Users\user\Desktop\Student\Student mark Predictor Deployment\student_mark_predictor.pkl")
 
 df = pd.DataFrame()
 
